@@ -1,0 +1,20 @@
+:root {
+    --color-white:hsl(0, 0%, 100%);
+    --color-cream:hsl(30, 38%, 92%);
+    --color-grey:hsl(228, 12%, 48%);
+    --color-black:hsl(212, 21%, 14%);
+    --color-green-500:hsl(158, 36%, 37%);
+    --color-green-700:hsl(158, 42%, 18%);
+}
+
+body {
+    background-color:var(--color-cream);
+}
+
+.card {
+    background-color:var(--color-white);
+    border-radius:2rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

@@ -20,13 +20,14 @@ body {
 .card {
     background-color:var(--color-white);
     border-radius:0.5rem;
-    width:clamp(27rem,20rem + 25vw, 120rem);
+    width:clamp(27rem,15rem + 35vw, 130rem);
     margin-top:5rem;
 }
 
 .image {
-    width:100%;
     border-radius:0.5rem 0.5rem 0rem 0rem;
+    width: 100%;
+    object-fit:cover;
 }
 
 .card_text {
@@ -36,7 +37,6 @@ body {
 .product_category {
     text-transform: uppercase;
     letter-spacing: 10px;
-
     color:var(--color-grey)
 }
 
@@ -67,7 +67,31 @@ body {
     background-color: var(--color-green-500);
     color:var(--color-white);
     padding:20px;
+    display:flex;
+    justify-content: center;
+    font-weight:700;
+    text-decoration: none;
+    gap:0.5rem;
 }
+
+.add_to_cart:hover {
+    background-color: var(--color-green-700);
+}
+
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width:48em) {
+
+    .card {
+        display:inline-flex;
+    }
+
+    .image {
+        border-radius: 0.5rem 0 0 0.5rem;
+        height:clamp(25rem,22rem + 25vw, 75rem);
+        width: clamp(10rem,8rem + 18vw, 60rem);
+    }
+}

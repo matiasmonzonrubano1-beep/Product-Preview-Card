@@ -9,11 +9,64 @@
 
 body {
     background-color:var(--color-cream);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:"Montserrat";
+    font-weight: 500;
 }
 
 .card {
     background-color:var(--color-white);
-    border-radius:2rem;
+    border-radius:0.5rem;
+    width:clamp(27rem,20rem + 25vw, 120rem);
+    margin-top:5rem;
+}
+
+.image {
+    width:100%;
+    border-radius:0.5rem 0.5rem 0rem 0rem;
+}
+
+.card_text {
+    margin:1rem;
+}
+
+.product_category {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+    color:var(--color-grey)
+}
+
+.product_name {
+    font-family: "Fraunces";
+    font-weight:700;
+}
+
+.product_description {
+    color:var(--color-grey)
+}
+
+.product_sale_price {
+    color:var(--color-green-500);
+    font-family:"Fraunces";
+    font-weight:700;
+    display:inline;
+}
+
+.product_price {
+    color:var(--color-grey);
+    text-decoration: line-through;
+    display:inline;
+}
+
+.add_to_cart {
+    border-radius: 0.5rem;
+    background-color: var(--color-green-500);
+    color:var(--color-white);
+    padding:20px;
 }
 
 .attribution { font-size: 11px; text-align: center; }

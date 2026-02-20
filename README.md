@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Front End Mentor](https://your-solution-url.com)
+- Solution URL: [Front End Mentor](https://www.frontendmentor.io/solutions/responsive-product-card-component-with-css-and-html-nyD51wBjQp)
 - Live Site URL: [Product Preview Card](https://matiasmonzonrubano1-beep.github.io/Product-Preview-Card/#)
 
 ## My process

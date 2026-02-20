@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family:"Montserrat";
+    font-family:"Montserrat",Arial, Helvetica, sans-serif;
     font-weight: 500;
     height:100%;
     font-size:clamp(0.8rem, 2vh,7rem);
@@ -23,7 +23,7 @@ body {
     background-color:var(--color-white);
     border-radius:0.5rem;
     width:clamp(20rem,18rem + 20vw, 120rem);
-    margin-top: 2rem;
+    margin-top: clamp(2rem,1.6rem + 6vw,10rem);
 }
 
 .image {
@@ -43,7 +43,7 @@ body {
 }
 
 .product_name {
-    font-family: "Fraunces";
+    font-family: "Fraunces",'Times New Roman', Times, serif;
     font-weight:700;
     font-size: clamp(1rem, 4vh,10rem);
     margin:0;
@@ -56,7 +56,7 @@ body {
 
 .product_sale_price {
     color:var(--color-green-500);
-    font-family:"Fraunces";
+    font-family:"Fraunces",'Times New Roman', Times, serif;
     font-weight:700;
     display:inline;
     font-size:clamp(2rem, 0.2rem + 5vh,10rem);
@@ -89,7 +89,7 @@ body {
 
 footer {
     position:relative;
-    top:1rem;
+    top: clamp(0.8rem,0.5rem + 8vw,8rem);;
 }
 
 .attribution { font-size: 11px; text-align: center; }
